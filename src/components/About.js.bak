@@ -1,0 +1,11 @@
+//Originally was going to be the about me page. 
+// I decided to use the dedicated /pages/ folder for my final's pages.
+
+
+/* import React from "react";
+
+export default class About extends React.Component {
+    render() {
+        return <h2>Hi, I am a Programmer!</h2>;
+    }
+}*/
