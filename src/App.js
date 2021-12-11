@@ -23,7 +23,7 @@ export default function App() {
         <Router>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand href="/">Final Forums</Navbar.Brand>
+                    <Navbar.Brand href="/react-final/">Final Forums</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
@@ -36,17 +36,18 @@ export default function App() {
                             </NavDropdown>
                         </Nav>
                         <Nav>
-                            <Nav.Link href="/contact">Contact</Nav.Link>
-                            <Nav.Link href="/about">About</Nav.Link>
+                            <Nav.Link href="/react-final/contact">Contact</Nav.Link>
+                            <Nav.Link href="/react-final/about">About</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
 
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="contact" element={<Contact />} />
-                <Route path="about" element={<About />} />
+                {/* <Route path="/" element={<App />}> */}
+                <Route path="/react-final/" element={<Home />} />
+                <Route path="/react-final/contact" element={<Contact />} />
+                <Route path="/react-final/about" element={<About />} />
             </Routes>
         </Router>
     );
