@@ -2,6 +2,7 @@
     "name": "final",
     "version": "0.1.0",
     "private": true,
+    "homepage": "http://aspauldingcode.github.io/react-final",
     "dependencies": {
         "@testing-library/jest-dom": "^5.16.0",
         "@testing-library/react": "^11.2.7",
@@ -15,8 +16,7 @@
         "react-helmet": "^6.1.0",
         "react-router-dom": "^6.0.2",
         "react-scripts": "4.0.3",
-        "web-vitals": "^1.1.2",
-        "homepage": "http://aspauldingcode.github.io/react-final"
+        "web-vitals": "^1.1.2"
     },
     "scripts": {
         "start": "react-scripts start",
