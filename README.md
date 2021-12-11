@@ -1,6 +1,6 @@
 # Final Project - Promineo Tech Front-End Stack Dev
 
-Want to test it out? Preview on any device via GitHub Pages!
+Want to test it out? Preview on any device via [GitHub Pages](https://aspauldingcode.github.io/react-final/)!
 
 ## Here, I create my last project for my Front-End Stack Development Course
 
