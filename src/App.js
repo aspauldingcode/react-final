@@ -44,9 +44,9 @@ export default function App() {
             </Navbar>
 
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="contact" element={<Contact />} />
-                <Route path="about" element={<About />} />
+                <Route path="/react-final" element={<Home />} />
+                <Route path="/react-final/contact" element={<Contact />} />
+                <Route path="/react-final/about" element={<About />} />
             </Routes>
         </BrowserRouter>
     );
